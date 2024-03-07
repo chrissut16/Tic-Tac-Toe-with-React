@@ -1,0 +1,30 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  margin: 30px;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: white;
+  font-size: 40px;
+}
+
+button {
+  font-size: 20px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.game {
+  display: flex;
+}
